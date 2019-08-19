@@ -1,0 +1,24 @@
+{
+  "baseURL": "https://anniesullie.com/",
+  "googleAnalytics": "UA-51820024-1",
+  "languageCode": "en-us",
+  "title": "Annie Sullivan",
+  "theme": "hugo-creative-portfolio-theme",
+  "taxonomies": {
+    "category": "categories"
+  },
+  "params": {
+    "author": "Annie Sullivan",
+    "description": "DESCRIPTION",
+    "copyright": "&copy;2019 Annie Sullivan",
+    "sidebarAbout": [
+      "I'm a software engineer by trade, but I love to make things.",
+      "In this blog I document the steps I took to learn how to do new things."
+    ],
+    "social": {
+      "linkedin":  "https://linkedin.com/in/anniesullie",
+      "twitter": "https://twitter.com/anniesullie",
+      "instagram": "https://instagram.com/anniesullie"
+    }
+  }
+}

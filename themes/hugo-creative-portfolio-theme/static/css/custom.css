@@ -1,0 +1,8 @@
+a.category+a.category:before {
+  content: '| ';
+  color: #999999;
+}
+
+figcaption {
+  font-size: 14px;
+}

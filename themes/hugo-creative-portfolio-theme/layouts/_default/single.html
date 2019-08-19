@@ -1,0 +1,19 @@
+{{ define "main" }}
+<div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
+  {{ partial "mobile_nav_toggle.html" . }}
+  <div class="row">
+    <div class="col-lg-8">
+      <div class="content-column-content">
+          <h1>{{ .Title }}</h1>
+          <p class="sidebar-p">{{ .Date.Format "January 2, 2006" }}&nbsp;&nbsp;&nbsp;&nbsp;
+          {{ range .Params.categories }}
+            <a class="category" href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+          {{ end }}
+          </p>
+          {{ .Content }}
+          {{ template "_internal/disqus.html" . }}
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
