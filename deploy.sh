@@ -13,6 +13,9 @@ hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 # Go To Public folder
 cd public
 
+# Make a .nojekyll file to properly serve files with underscores.
+touch .nojekyll
+
 # Add changes to git.
 git add .
 
