@@ -1,8 +1,6 @@
 masonry();
 $(function () {
     offCanvas();
-    lightbox();
-    carousels();
     utils();
     highlightCurrentPage();
     makeImagesResponsive();
@@ -12,20 +10,6 @@ function highlightCurrentPage() {
 }
 function makeImagesResponsive() {
     $("img").addClass("img-responsive");
-}
-/* =========================================
- *  carousels
- *  =======================================*/
-function carousels() {
-    $('#main-slider').owlCarousel({
-	navigation: true, // Show next and prev buttons
-	slideSpeed: 300,
-	paginationSpeed: 400,
-	autoPlay: true,
-	stopOnHover: true,
-	singleItem: true,
-	afterInit: ''
-    });
 }
 /* =========================================
  *  masonry
@@ -49,15 +33,6 @@ function offCanvas() {
     });
 }
 /* =========================================
- *  lightbox
- *  =======================================*/
-function lightbox() {
-    $(document).delegate('*[data-toggle="lightbox"]', 'click', function (event) {
-        event.preventDefault();
-        $(this).ekkoLightbox();
-    });
-}
-/* =========================================
  *  utils
  *  =======================================*/
 function utils() {
@@ -76,14 +51,6 @@ function utils() {
     $('.external').on('click', function (e) {
         e.preventDefault();
         window.open($(this).attr("href"));
-    });
-    /* animated scrolling */
-    $('.scroll-to').click(function (event) {
-        event.preventDefault();
-        var full_url = this.href;
-        var parts = full_url.split("#");
-        var trgt = parts[1];
-        $('body').scrollTo($('#' + trgt), 800, {offset: -80});
     });
 }
 /* product detail gallery */
