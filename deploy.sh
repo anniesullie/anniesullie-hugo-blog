@@ -16,6 +16,11 @@ cd public
 # Make a .nojekyll file to properly serve files with underscores.
 touch .nojekyll
 
+# Compress all jpegs
+for file in */*/*/images/*.jpg ;
+  do jpegtran -outfile $file -optimise -copy none $file;
+done
+
 # Add changes to git.
 git add .
 
