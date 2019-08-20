@@ -20,7 +20,8 @@ touch .nojekyll
 git add .
 
 # Commit changes.
-msg="rebuilding site $(date)"
+echo "Please enter commit message"
+read msg
 if [ -n "$*" ]; then
 	msg="$*"
 fi
