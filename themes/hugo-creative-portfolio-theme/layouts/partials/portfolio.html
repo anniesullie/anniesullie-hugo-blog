@@ -7,7 +7,7 @@
                   <div class="box-masonry">
                     <a href="{{ .Permalink }}" title="" class="box-masonry-image with-hover-overlay with-hover-icon">
                     {{ with .Resources.GetMatch "featuredImage" }}
-                      <img src="{{.Permalink}}" alt="" class="img-responsive">
+                      <img src="{{ (.Resize "350x").RelPermalink }}" alt="" class="img-responsive">
                     {{ end }}
                     </a>
                     <div class="box-masonry-text">
