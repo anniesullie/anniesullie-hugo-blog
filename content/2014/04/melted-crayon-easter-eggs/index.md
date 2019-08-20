@@ -9,7 +9,7 @@
       "name": "featuredImage",
       "src": "images/melted-crayon-easter-eggs.jpg"
     }
-  ], 
+  ],
   "title": "Melted Crayon Easter Eggs"
 }
 
