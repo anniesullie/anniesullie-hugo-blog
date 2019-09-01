@@ -6,3 +6,7 @@ a.category+a.category:before {
 figcaption {
   font-size: 14px;
 }
+
+.content-column-content div.alert-danger p {
+  color: #a94442 !important;
+}

@@ -12,6 +12,12 @@
   ],
   "title": "Learning to etch metal: Edinburgh etch on copper and brass stamping blanks"
 }
+{{% danger %}}
+  **Warning**<br>
+  Metal etching can be dangerous! If you're going to try this, make sure to read all red the warning
+  text at the bottom of the [Edinburgh Etch
+  page](http://www.nontoxicprint.com/etchcopperandbrass.htm) first!
+{{% /danger %}}
 
 When I took the laser cutter class at [Maker Works](https://www.maker-works.com/) and learned about
 all the different materials you can etch, I was really interested in learning how to etch metal. But

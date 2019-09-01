@@ -13,6 +13,17 @@
   "image": "featuredImage"
 }
 
+{{% danger %}}
+  **Warning**<br>
+  Metal etching can be dangerous! If you're going to try this, make sure to read all red the warning
+  text at the bottom of the [Edinburgh Etch
+  page](http://www.nontoxicprint.com/etchcopperandbrass.htm) first!
+
+  Also note that copper is reflective. Laser forum users warn that there’s a risk of the beam
+  bouncing off the copper and back into the laser head. I scuffed the copper prior to lasering to
+  avoid this, but I'm not certain how big of a risk this is.
+{{% /danger %}}
+
 One thing I'd been really excited to try on my Glowforge was etching metal. Of course the Glowforge
 doesn't etch metal directly, but there are a lot of posts on the Glowforge forums where people had
 spray painted metal and then etched it. I was really curious if it was easier to do than the laser

@@ -13,6 +13,12 @@
   ],
   "title": "Etching Photos onto Metal"
 }
+{{% danger %}}
+  **Warning**<br>
+  Metal etching can be dangerous! If you're going to try this, make sure to read all red the warning
+  text at the bottom of the [Edinburgh Etch
+  page](http://www.nontoxicprint.com/etchcopperandbrass.htm) first!
+{{% /danger %}}
 
 The big reason I spent all the effort learning to use [press n peel
 paper](https://anniesullie.com/2017/12/learning-to-etch-metal/) to etch (instead of cutting vinyl
