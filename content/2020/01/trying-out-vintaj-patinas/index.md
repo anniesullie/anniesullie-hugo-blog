@@ -20,6 +20,14 @@ engraved a few extra brass business cards with pictures. One had the picture
 darkened with Jax black patina, and the other one hadn't been finished at all,
 which resulted in the etched area naturally taking on a patina over time.
 
+{{< responsive-figure
+        src="images/black-patina.jpg"
+        caption="Engraved brass business card with black patina." >}}
+
+{{< responsive-figure
+        src="images/natural-patina.jpg"
+        caption="Engraved brass business card with natural patina." >}}
+
 I wondered if it's really just as simple as painting on some patina, letting it
 dry, and using the Vintaj buffing block to remove the patina from the raised
 areas. So I threw on a lot of patina:
