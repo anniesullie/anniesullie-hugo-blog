@@ -55,8 +55,11 @@ crafted the dragon mask out of foam.
         caption="The mask before painting." >}}
 
 The wings were the hardest part. We agreed they could fit on the body like a
-backpack in order to make the whole thing easy to get on and off. Doug did
-an amazing job crafting them from foam and the fabric we picked for the body.
+backpack in order to make the whole thing easy to get on and off. They wouldn't
+be sturdy enough for a little kid to run around in if they were made just of
+craft foam, so Doug made a base out of PEX pipe and layered foam and the fabric
+for the body over it to shape the wings. We made "staps" out of the same scale
+fabric we used for the body.
 
 {{< responsive-figure
         src="images/craft-foam-dragon-wings.jpg"
