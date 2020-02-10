@@ -4,8 +4,8 @@
     "Sewing",
     "Foam crafting"
   ],
-  "date": "2019-11-31",
-  "title": "Halloween 2020: Knight and Dragon",
+  "date": "2019-10-31",
+  "title": "Halloween 2019: Knight and Dragon",
   "titleimage": "images/knight-and-dragon-costumes.jpg",
   "resources": [{
     "name": "featuredImage",
